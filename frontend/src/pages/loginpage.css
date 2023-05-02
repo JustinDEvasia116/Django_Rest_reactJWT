@@ -1,0 +1,36 @@
+.user-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+.user-login form {
+    /* text-align: left; */
+    width: 20rem;
+
+}
+.user-login input {
+    height: 2.5rem;
+    text-align: center;
+}
+.user-login .form-group {
+    margin: 2rem 0;
+}
+.user-login .form-group label {
+    margin: 0.5rem 0;
+}
+  .user-login .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .user-login .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .user-login .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  }

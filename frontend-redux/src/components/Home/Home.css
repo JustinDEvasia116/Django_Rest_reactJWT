@@ -1,0 +1,42 @@
+.home-page {
+    background-color: #b3aae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+  .profile-container {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    width: 50%;
+    padding: 30px;
+    height: 75vh;
+    background-color: #9de3f0;
+  }
+  .profile-header {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .personal-info {
+    margin-top: 30px;
+  }
+  
+  .personal-info h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  
+  .personal-info p {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+  
+  .personal-info strong {
+    font-weight: 600;
+  }
+  

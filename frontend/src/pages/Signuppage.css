@@ -1,0 +1,43 @@
+/* SignupPage.css */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+  }
+  
+  .signup-container .signup-form {
+    width: 300px;
+  }
+  
+  .signup-container .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .signup-container .label-text {
+    font-size: 18px;
+  }
+  
+  .signup-container input[type="email"],
+  .signup-container input[type="password"],
+  .signup-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .signup-container .signup-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-container .signup-btn:hover {
+    background-color: #0056b3;
+  }
+  

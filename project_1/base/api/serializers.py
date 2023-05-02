@@ -8,7 +8,7 @@ from rest_framework import serializers
 class AccountSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('email', 'password', 'first_name', 'last_name','username')
+        fields = ('id','email', 'password', 'first_name', 'last_name','username','is_active')
         extra_kwargs = {
             'password': {'write_only': True},
         }
@@ -31,7 +31,10 @@ class AccountSerializer(serializers.ModelSerializer):
         return user
 
 
-
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('email', 'first_name', 'last_name')
 
 
 

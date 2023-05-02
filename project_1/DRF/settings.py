@@ -18,6 +18,15 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+]
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+SESSION_AUTHENTICATION = True
+
+# Enable CSRF_COOKIE_SECURE for secure CSRF protection
+CSRF_COOKIE_SECURE = True
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
